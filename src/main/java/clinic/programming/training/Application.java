@@ -13,7 +13,7 @@ public class Application {
 	
 	public void greet(){
 		List<String> greetings = new ArrayList<>();
-		greetings.add("Hello");
+		greetings.add("Hello Man");
 		
 		for (String greet : greetings){
 			System.out.println("Greeting : "+greet);
