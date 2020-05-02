@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 
 public class Application {
     
-	public static int countWords(String s){
+	public int countWords(String s){
 		String[] separateWords = StringUtils.split(s,' ');
 		return (separateWords == null) ? 0 : separateWords.length;
 	}
@@ -30,6 +30,6 @@ public class Application {
 		app.greet();
 		
 		
-    	System.out.println ("Word count = "+countWords("testing the world with udemy"));
+    	System.out.println ("Word count = "+app.countWords("testing the world with udemy"));
     }
 }
